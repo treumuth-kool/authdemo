@@ -20,7 +20,7 @@ const User = db.define('user', {
     allowNull: false
   }
 }, {
-  timestamps: false // This line disables the createdAt and updatedAt fields
+  timestamps: false
 });
 
 module.exports = User;
