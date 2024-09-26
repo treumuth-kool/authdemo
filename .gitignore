@@ -95,3 +95,7 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Ensure database folder is not ignored
+!database/
+!database/*.sql
